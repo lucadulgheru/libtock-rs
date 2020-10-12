@@ -30,6 +30,11 @@ case "${PLATFORM}" in
         binary_name=cortex-m4.elf
         tockload=y
         ;;
+    "stm32f3discovery")
+        tockloader_flags=""
+        binary_name=cortex-m4.elf
+        tockload=n
+        ;;
     "hail")
         tockloader_flags=""
         binary_name=cortex-m4.elf
